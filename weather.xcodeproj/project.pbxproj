@@ -14,8 +14,13 @@
 		DD1A0AE1235B0DCA00A93001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1A0ADF235B0DCA00A93001 /* Main.storyboard */; };
 		DD1A0AE3235B0DCA00A93001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1A0AE2235B0DCA00A93001 /* Assets.xcassets */; };
 		DD1A0AE6235B0DCA00A93001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1A0AE4235B0DCA00A93001 /* LaunchScreen.storyboard */; };
-		DD1A0AF3235B558E00A93001 /* city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1A0AF2235B558E00A93001 /* city.swift */; };
-		DD4D6449235D7D7200360C80 /* chooseCItyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D6448235D7D7200360C80 /* chooseCItyController.swift */; };
+		DD4D6449235D7D7200360C80 /* chooseCIty_v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D6448235D7D7200360C80 /* chooseCIty_v2.swift */; };
+		DD896C1E238294F100347920 /* area2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD896C1D238294F100347920 /* area2.plist */; };
+		DDD779FE236ECDF7000DFD8E /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDD779FD236ECDF7000DFD8E /* area.plist */; };
+		DDD77A00236ECE64000DFD8E /* cityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD779FF236ECE64000DFD8E /* cityModel.swift */; };
+		DDD77A02236FF459000DFD8E /* choosecity_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD77A01236FF459000DFD8E /* choosecity_v1.swift */; };
+		DDF6ECE3237ACBAD003D2B96 /* chooseCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6ECE2237ACBAD003D2B96 /* chooseCityController.swift */; };
+		DDF6ECE5237ACC07003D2B96 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF6ECE4237ACC07003D2B96 /* city.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +34,13 @@
 		DD1A0AE2235B0DCA00A93001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1A0AE5235B0DCA00A93001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD1A0AE7235B0DCA00A93001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD1A0AF2235B558E00A93001 /* city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city.swift; sourceTree = "<group>"; };
-		DD4D6448235D7D7200360C80 /* chooseCItyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCItyController.swift; sourceTree = "<group>"; };
+		DD4D6448235D7D7200360C80 /* chooseCIty_v2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCIty_v2.swift; sourceTree = "<group>"; };
+		DD896C1D238294F100347920 /* area2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = area2.plist; sourceTree = "<group>"; };
+		DDD779FD236ECDF7000DFD8E /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		DDD779FF236ECE64000DFD8E /* cityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityModel.swift; sourceTree = "<group>"; };
+		DDD77A01236FF459000DFD8E /* choosecity_v1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choosecity_v1.swift; sourceTree = "<group>"; };
+		DDF6ECE2237ACBAD003D2B96 /* chooseCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseCityController.swift; sourceTree = "<group>"; };
+		DDF6ECE4237ACC07003D2B96 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
 		E1A70D5BBD246E61A0DD958C /* Pods-weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather.debug.xcconfig"; path = "Target Support Files/Pods-weather/Pods-weather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +101,9 @@
 				DD1A0ADD235B0DCA00A93001 /* ViewController.swift */,
 				DD1A0AD9235B0DCA00A93001 /* AppDelegate.swift */,
 				DD1A0ADB235B0DCA00A93001 /* SceneDelegate.swift */,
-				DD4D6448235D7D7200360C80 /* chooseCItyController.swift */,
+				DD4D6448235D7D7200360C80 /* chooseCIty_v2.swift */,
+				DDD77A01236FF459000DFD8E /* choosecity_v1.swift */,
+				DDF6ECE2237ACBAD003D2B96 /* chooseCityController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -99,7 +111,10 @@
 		DD1A0AEE235B106B00A93001 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				DD1A0AF2235B558E00A93001 /* city.swift */,
+				DDD779FD236ECDF7000DFD8E /* area.plist */,
+				DDF6ECE4237ACC07003D2B96 /* city.plist */,
+				DDD779FF236ECE64000DFD8E /* cityModel.swift */,
+				DD896C1D238294F100347920 /* area2.plist */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -182,6 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1A0AE6235B0DCA00A93001 /* LaunchScreen.storyboard in Resources */,
+				DDF6ECE5237ACC07003D2B96 /* city.plist in Resources */,
+				DD896C1E238294F100347920 /* area2.plist in Resources */,
+				DDD779FE236ECDF7000DFD8E /* area.plist in Resources */,
 				DD1A0AE3235B0DCA00A93001 /* Assets.xcassets in Resources */,
 				DD1A0AE1235B0DCA00A93001 /* Main.storyboard in Resources */,
 			);
@@ -238,8 +256,10 @@
 			files = (
 				DD1A0ADE235B0DCA00A93001 /* ViewController.swift in Sources */,
 				DD1A0ADA235B0DCA00A93001 /* AppDelegate.swift in Sources */,
-				DD4D6449235D7D7200360C80 /* chooseCItyController.swift in Sources */,
-				DD1A0AF3235B558E00A93001 /* city.swift in Sources */,
+				DDD77A02236FF459000DFD8E /* choosecity_v1.swift in Sources */,
+				DDF6ECE3237ACBAD003D2B96 /* chooseCityController.swift in Sources */,
+				DD4D6449235D7D7200360C80 /* chooseCIty_v2.swift in Sources */,
+				DDD77A00236ECE64000DFD8E /* cityModel.swift in Sources */,
 				DD1A0ADC235B0DCA00A93001 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
